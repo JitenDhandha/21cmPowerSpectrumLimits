@@ -1,0 +1,3 @@
+# Pal et al. 2021: https://ui.adsabs.harvard.edu/abs/2021MNRAS.501.3378P
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+8.28, 2.36, 5279.4756

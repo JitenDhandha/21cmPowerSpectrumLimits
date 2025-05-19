@@ -1,0 +1,5 @@
+# Beardsley et al. 2016: https://ui.adsabs.harvard.edu/abs/2016ApJ...833..102B
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+6.5, 0.24, 3.22e4
+6.8, 0.24, 3.02e4
+7.1, 0.27, 2.7e4

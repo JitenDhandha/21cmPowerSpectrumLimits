@@ -1,0 +1,5 @@
+# Mertens et al. 2025: https://ui.adsabs.harvard.edu/abs/2025arXiv250305576M
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+8.3, 0.083, 4290.25
+9.1, 0.076, 2948.49
+10.1, 0.076, 4719.69

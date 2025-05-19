@@ -1,0 +1,3 @@
+# Paciga et al. 2013: https://ui.adsabs.harvard.edu/abs/2013MNRAS.433..639P
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+8.6, 0.50, 61504

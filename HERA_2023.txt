@@ -1,0 +1,4 @@
+# HERA collaboration et al. 2023: https://ui.adsabs.harvard.edu/abs/2023ApJ...945..124H
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+7.9, 0.34, 457
+10.4, 0.36, 3496

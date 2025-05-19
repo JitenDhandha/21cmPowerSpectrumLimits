@@ -1,0 +1,5 @@
+# Patil et al. 2017: https://ui.adsabs.harvard.edu/abs/2017ApJ...838...65P
+z_center, k[h cMpc^-1], Dsq21[mK^2], z_low, z_high
+8.3, 0.053,	17292.25, 7.9, 8.7
+9.15, 0.053, 7464.96, 8.7, 9.6
+10.1, 0.053, 6336.16, 9.6, 10.6

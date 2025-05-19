@@ -1,0 +1,5 @@
+# Rahimi et al. 2021: https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.5954R
+z_center, k[h cMpc^-1], Dsq21[mK^2], z_low, z_high
+6.5, 0.135, 5.44e3
+6.8, 0.135, 9.28e3
+7.1, 0.135, 1.52e4

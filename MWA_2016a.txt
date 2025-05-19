@@ -1,0 +1,5 @@
+# Ewall-Wice et al. 2016: https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.4320E
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+12.2, 0.18, 2.5e7
+15.35, 0.21, 8.3e7
+17.05, 0.22, 2.7e8

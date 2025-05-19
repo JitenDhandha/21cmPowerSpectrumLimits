@@ -1,0 +1,3 @@
+# Dillon et al. 2015: https://ui.adsabs.harvard.edu/abs/2015PhRvD..91l3011D
+z_center, k[h cMpc^-1], Dsq21[mK^2], z_low, z_high
+6.8, 0.18, 3.7e4, 6.2, 7.5

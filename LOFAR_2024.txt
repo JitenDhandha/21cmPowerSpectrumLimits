@@ -1,0 +1,3 @@
+# Acharya et al. 2024: https://ui.adsabs.harvard.edu/abs/2024MNRAS.534L..30A
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+9.1, 0.075, 602.7025

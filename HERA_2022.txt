@@ -1,0 +1,4 @@
+# HERA collaboration et al. 2022: https://ui.adsabs.harvard.edu/abs/2022ApJ...925..221A
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+7.9, 0.192, 946.2
+10.4, 0.256, 9166.15

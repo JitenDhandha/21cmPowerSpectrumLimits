@@ -1,0 +1,3 @@
+# Wilensky et al. 2023: https://ui.adsabs.harvard.edu/abs/2023ApJ...957...78W
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+6.5, 0.258, 1.61e4

@@ -1,0 +1,5 @@
+# Li et al. 2019: https://ui.adsabs.harvard.edu/abs/2019ApJ...887..141L
+z_center, k[h cMpc^-1], Dsq21[mK^2]
+6.5, 0.59, 2.39e3
+6.8, 0.29, 5.59e3
+7.1, 0.25, 9.28e3
