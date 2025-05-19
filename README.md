@@ -8,7 +8,7 @@ This repository contains the latest upper limits on the 21-cm power spectrum fro
 
 ## File format 
 
-Each limit is stored in a separate file, with the filename indicating the experiment and year. The header of each file contains a reference to the corresponding paper, and the data is stored in a simple format of: $z_\text{center},\,k\,(h\text{Mpc}^{-1}),\,\Delta_{21}^2\,(\text{mK}^2)$.
+Each limit is stored in a separate file, with the filename indicating the experiment and year. The header of each file contains a reference to the corresponding paper, and the data is stored in a simple format of: $z$, $k~(h\text{Mpc}^{-1})$, $\Delta_{21}^2~(\text{mK}^2)$.
 
 
 ## Usage and license
