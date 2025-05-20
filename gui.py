@@ -111,11 +111,11 @@ class GUI():
                 # Get the data for the selected limit
                 author, ads_link, data = get_limits(limit_name)
                 # Add the data to the plot
+                data = data[(data['k[h cMpc^-1]'] >= self.k_min) & (data['k[h cMpc^-1]'] <= self.k_max) & (data['z_center'] >= self.z_min) & (data['z_center'] <= self.z_max)]
                 z = data['z_center'].values
                 k = data['k[h cMpc^-1]'].values
                 x = z if self.function_of_z else k
                 Dsq21 = data['Dsq21[mK^2]'].values
-                Dsq21 = Dsq21[(k >= self.k_min) & (k <= self.k_max) & (z >= self.z_min) & (z <= self.z_max)]
                 self.figure.add_trace(go.Scatter(
                     x=x,
                     y=Dsq21,
