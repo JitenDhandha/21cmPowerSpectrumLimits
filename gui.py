@@ -110,9 +110,9 @@ class GUI():
         # Get the data for the selected limit
         self.figure.data = []
         if self.function_of_z:
-            xaxis = dict(type='linear', title='Redshift z', range=[5, 30], tickmode='linear')
+            xaxis = dict(type='linear', title=r'$\mathrm{Redshift}~z$', range=[5, 30], tickmode='linear')
         else:
-            xaxis = dict(type='log', title='k [h/cMpc]', range=[-2, 1], exponentformat='e', tickmode='linear')
+            xaxis = dict(type='log', title='$k~[h\mathrm{~cMpc^{-1}}]$', range=[-2, 1], exponentformat='e', tickmode='linear')
         for limit_name, chkbox in zip(LimitNames, self.checkbox_list):
             if chkbox.value:
                 experiment_name = limit_name.split('_')[0]
@@ -135,7 +135,7 @@ class GUI():
                 )
         self.figure.update_layout(
             xaxis=xaxis,
-            yaxis=dict(type='log', title='Dsq21 [mK^2]', range=[2, 13], exponentformat='e', tickmode='linear'),
+            yaxis=dict(type='log', title=r"$\mathrm{Power~spectrum}~\Delta_{21}^2~[\mathrm{mK}^2]$", range=[2, 13], exponentformat='e', tickmode='linear'),
             legend=dict(title='Experiments'),
             showlegend=True,
             template='plotly_dark',
@@ -150,14 +150,7 @@ class GUI():
         #############################################
         
         ui.dark_mode(True)
-        ui.add_head_html('''
-        <script>
-        window.MathJax = {
-            tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
-        };
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        ''')
+        ui.add_head_html('<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG"></script>')
         
         self.header = ui.header(
             ).classes('w-full h-[11%] items-center justify-center content-center bg-primary')
@@ -170,8 +163,6 @@ class GUI():
                 on_click=lambda: ui.navigate.to('https://github.com/JitenDhandha/21cmPowerSpectrumLimits', new_tab=True)
                 ).props('round'
                 ).tooltip('GitHub')
-                
-
             
         #############################################
         #            Experiments card               #
