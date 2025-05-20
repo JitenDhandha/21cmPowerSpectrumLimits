@@ -224,6 +224,3 @@ class GUI():
                             ).style('background-color: bg-primary; color: white;')
         
         ui.run()
-            
-# Run the GUI
-gui = GUI()
