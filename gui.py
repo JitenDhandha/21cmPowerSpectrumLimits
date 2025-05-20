@@ -222,5 +222,3 @@ class GUI():
                             on_change=lambda e: self.set_z_max(e.value)
                             ).classes('text-l'
                             ).style('background-color: bg-primary; color: white;')
-        
-        ui.run()
