@@ -2,7 +2,7 @@
 
 *Last updated: 20 May 2025*
 
-This repository contains the latest upper limits on the 21-cm power spectrum from various experiments, inspired by similar now outdated collections ([PabloVD/21cmBounds](https://github.com/PabloVD/21cmBounds), [ThomasGesseyJones](https://github.com/ThomasGesseyJones)). The list is intended to be a living document and I will updated it as and when possible. There is a Python script included that reads the data and generates the plot shown below, or you can use the GUI via `python gui.py`. 
+This repository contains the latest upper limits on the 21-cm power spectrum from various experiments, inspired by similar now outdated collections ([PabloVD/21cmBounds](https://github.com/PabloVD/21cmBounds), [ThomasGesseyJones](https://github.com/ThomasGesseyJones)). The list is intended to be a living document and I will updated it as and when possible. In order to plot the limits (as shown below), you can use the provided Python notebook `plot_limits.ipynb` or use the online web app at [powerspectrumlimits.onrender.com](https://powerspectrumlimits.onrender.com/) (note that it may take upto a minute to load).
 
 ![21cm_power_spectrum_limits](21cm_power_spectrum_limits.png)
 
@@ -11,11 +11,12 @@ The code is written in Python 3+. You will need the following packages:
 - `numpy`
 - `matplotlib`
 - `pandas`
-
-If you want to use the GUI, you will also need:
-- `plotly`
 - `seaborn`
+
+The GUI version also requires:
+- `plotly`
 - `nicegui`
+- `fastapi`
 
 ## File format 
 
