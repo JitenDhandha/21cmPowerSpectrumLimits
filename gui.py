@@ -96,6 +96,16 @@ class GUI():
         self.z_max = value
         self.update_plot()
         
+    def select_all(self):
+        for chkbox in self.checkbox_list:
+            chkbox.value = True
+        self.update_plot()
+    
+    def deselect_all(self):
+        for chkbox in self.checkbox_list:
+            chkbox.value = False
+        self.update_plot()
+        
     def update_plot(self):
         # Get the data for the selected limit
         self.figure.data = []
@@ -186,6 +196,16 @@ class GUI():
                                 ).classes('text-l'
                                 ).style(f'color: {ColorsList[ExperimentNames.index(experiment_name)]};')
                             self.checkbox_list.append(chkbox)
+                            
+                with ui.row().classes('w-full items-center justify-center content-center'):
+                    ui.button('Select All',
+                        on_click=self.select_all
+                        ).classes('text-l'
+                        ).style('background-color: bg-primary; color: white;')
+                    ui.button('Deselect All',
+                        on_click=self.deselect_all
+                        ).classes('text-l'
+                        ).style('background-color: bg-primary; color: white;')
                     
             #############################################
             #                  Plot card                #
